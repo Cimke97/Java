@@ -1,0 +1,36 @@
+package lt.codeacademy;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+        //  priskiriame eilutę kintamajam
+        String Cimke = "Mantas";
+        // Kviečiame eilutes metoda, kelinta raidė kode
+        char raide = "Mantas".charAt(0);
+        // Kviečiame String kintamojo metodą
+        char Pirmaraide = Cimke.charAt(0);
+        System.out.println("Kintamasis:" + Cimke + " " + "eilutes metodas:" + raide + " " + "String kintamasis:"+ Pirmaraide);
+        // vienoda reiksme taciau new string sukuria nauja kintamaji atskira
+        String a = "hello";
+        String tuščia = new String(a);
+        System.out.println(tuščia);
+        // masyvas ir spausdimas masyvo sujungiant raides
+        char[] raides = {'j','o','l'};
+                String zodisR = new String(raides);
+        System.out.println(zodisR);
+        // pakeisti visas t į D
+        String zodis1 = "tuktukas";
+        String zodis2 = zodis1.replace('t', 'D');
+        System.out.println(zodis2);
+        // grąžina kiek eilutėje yra simbolių
+        System.out.println("Cimke".length());
+        // grąžina simboli esantį (skaicius) pozicijoje
+        System.out.println("Cimke".charAt(2));
+        //užduotis: Užduotis:charAt ir length
+        // •Sukurtieilutės tipo kintamąjį ir jam priskirti tekstą
+        // •Rasti n-tąjį eilutės simbolį ir jį atspausdinti
+        // •Rasti teksto ilgį
+        String asilas ="asilas";
+        System.out.println(asilas.charAt(2));
+        System.out.println(asilas.length());
